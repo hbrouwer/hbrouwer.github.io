@@ -50,12 +50,12 @@ div.north
   height: 280px;
 }
 
-div.east {
+div.west {
   float: left;
   width: 400px;
 }
 
-div.west {
+div.east {
   float: right;
   width: 160px;
   margin-left: 20px;
