@@ -47,17 +47,17 @@ h1 {
 
 div.north
 {
-  height: 280px;
+  height: 320px;
 }
 
 div.west {
   float: left;
-  width: 400px;
+  width: 340px;
 }
 
 div.east {
   float: right;
-  width: 160px;
+  width: 220px;
   margin-left: 20px;
 }
 
