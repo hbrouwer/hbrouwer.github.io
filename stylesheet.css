@@ -35,6 +35,7 @@ div.content {
   font-size: 11pt;
   /* font-weight: bold; */
   margin-top: 75px;
+  margin-bottom: 75px;
   margin-left: auto;
   margin-right: auto;
   width: 800px;
@@ -49,7 +50,11 @@ h1 {
   color: #718899;
 }
 
-p.address {
-  margin-top: 50px;
-  margin-bottom: 75px;
+div.email {
+  margin-top: 30px;
+}
+
+hr.section {
+  border-top: 0px;
+  border-color: #444444;
 }
