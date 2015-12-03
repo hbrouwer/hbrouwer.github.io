@@ -1,24 +1,31 @@
 body {
-  background: #222222;
+  background: #2b353d;
 }
 
 a {
   text-decoration: none;
-  color: #aaaaaa;
+  color: #bbbbbb;
 }
 
 a:visited {
   text-decoration: none;
-  color: #aaaaaa;
+  color: #bbbbbb;
 }
 
 a:hover {
-  color: #dddddd;
+  color: #f0652f;
   text-decoration: underline;
-  background: #444444;
+  background: #2b353d;
 }
 
-p.header {
+p.header_name {
+  font-family: verdana;
+  font-weight: lighter;
+  font-size: 16pt;
+  color: #f0652f;
+}
+
+p.header_links {
   margin-bottom: 10px;
 }
 
@@ -29,32 +36,32 @@ p.item {
 }
 
 div.content {
-  /* color: #718899; */
+  background: #242c33;
   color: #dddddd;
   font-family: georgia;
-  font-size: 11pt;
-  /* font-weight: bold; */
-  margin-top: 75px;
-  margin-bottom: 75px;
+  font-size: 12pt;
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  padding: 25px;
+  width: 900px;
 }
 
 h1 {
-  margin-top: 30pt;
+  margin-top: 35pt;
   font-family: verdana;
+  font-weight: lighter;
   font-size: 13pt;
-  /* font-weight: bold; */
-  /* text-decoration: underline; */
-  color: #718899;
+  color: #8d9aa6;
 }
 
 div.email {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 hr.section {
   border-top: 0px;
-  border-color: #444444;
+  /* border-color: #2b353d; */
+  color: #888888;
 }
