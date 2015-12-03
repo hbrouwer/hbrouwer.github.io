@@ -18,15 +18,28 @@ a:hover {
   background: #2b353d;
 }
 
-p.header_name {
+div.header {
   font-family: verdana;
   font-weight: lighter;
   font-size: 16pt;
-  color: #f0652f;
 }
 
-p.header_links {
-  margin-bottom: 10px;
+span.title {
+  color: #ffffff;
+  vertical-align: middle;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  padding: 5px;
+}
+
+span.name {
+  color: #f0652f;
+  vertical-align: middle;
+}
+
+p.nav_links {
+  margin-top: 25px;
 }
 
 p.item {
