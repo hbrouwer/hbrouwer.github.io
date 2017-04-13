@@ -69,6 +69,15 @@ h1 {
   color: #8d9aa6;
 }
 
+h2 {
+  font-family: verdana;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: right;
+  font-size: 12pt;
+  color: #b6c6d6;
+}
+
 div.email {
   margin-top: 20px;
 }
