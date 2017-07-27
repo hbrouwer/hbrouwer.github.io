@@ -78,12 +78,13 @@ h2 {
   color: #ffb800;
 }
 
-div.email {
+div.contact {
   margin-top: 20px;
 }
 
 hr.section {
-  border-top: 0px;
-  border-color: #bbbbbb;
+  border: none;
+  height: 1px;
   color: #bbbbbb;
+  background-color: #bbbbbb;
 }
