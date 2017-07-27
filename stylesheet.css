@@ -1,21 +1,21 @@
 body {
-  background: #2b353d;
+  background: #bbbbbb;
 }
 
 a {
   text-decoration: none;
-  color: #bbbbbb;
+  color: #444444;
 }
 
 a:visited {
   text-decoration: none;
-  color: #bbbbbb;
+  color: #444444;
 }
 
 a:hover {
-  color: #f0652f;
+  color: #ffb800;
   text-decoration: underline;
-  background: #2b353d;
+  background: #888888;
 }
 
 div.header {
@@ -25,16 +25,16 @@ div.header {
 }
 
 span.title {
-  color: #ffffff;
+  color: #ffb800;
   vertical-align: middle;
   border-width: 2px;
-  border-color: #ffffff;
+  border-color: #ffb800;
   border-style: solid;
   padding: 5px;
 }
 
 span.name {
-  color: #f0652f;
+  color: #444444;
   vertical-align: middle;
 }
 
@@ -49,8 +49,8 @@ p.item {
 }
 
 div.content {
-  background: #242c33;
-  color: #dddddd;
+  background: #ffffff;
+  color: #444444;
   font-family: georgia;
   font-size: 12pt;
   margin-top: 50px;
@@ -66,7 +66,7 @@ h1 {
   font-family: verdana;
   font-weight: lighter;
   font-size: 13pt;
-  color: #8d9aa6;
+  color: #bbbbbb;
 }
 
 h2 {
@@ -75,7 +75,7 @@ h2 {
   font-weight: lighter;
   text-align: right;
   font-size: 10pt;
-  color: #b6c6d6;
+  color: #ffb800;
 }
 
 div.email {
@@ -84,6 +84,6 @@ div.email {
 
 hr.section {
   border-top: 0px;
-  /* border-color: #2b353d; */
-  color: #888888;
+  border-color: #bbbbbb;
+  /* color: #888888; */
 }
