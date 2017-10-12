@@ -17,7 +17,7 @@ a:visited {
 a:hover {
   color: #ffb800;
   text-decoration: underline;
-  background: #888888;
+  background: #666666;
 }
 
 div.header {
@@ -29,7 +29,7 @@ div.header {
 span.title {
   color: #ffb800;
   vertical-align: middle;
-  border-width: 2px;
+  border-width: 3px;
   border-color: #ffb800;
   border-style: solid;
   padding: 5px;
