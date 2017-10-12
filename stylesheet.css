@@ -1,5 +1,7 @@
 body {
-  background: #444444;
+  /* background: #444444; */
+  background-image: url("bg.jpg");
+  background-size: cover;
 }
 
 a {
