@@ -61,6 +61,8 @@ div.content {
   margin-right: auto;
   padding: 25px;
   width: 900px;
+  border: double;
+  border-color: #444444;
 }
 
 h1 {
