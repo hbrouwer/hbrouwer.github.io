@@ -1,29 +1,26 @@
 body {
-  /* background: #444444; */
-  background-image: url("bg.jpg");
-  background-size: cover;
+  background: #1b2631;
 }
 
 a {
   text-decoration: none;
-  color: #444444;
+  color: #d5d8dc;
 }
 
 a:visited {
   text-decoration: none;
-  color: #444444;
+  color: #d5d8dc;
 }
 
 a:hover {
   color: #ffb800;
   text-decoration: underline;
-  background: #666666;
+  background: #34495e;
 }
 
 div.header {
   font-family: verdana;
-  font-weight: lighter;
-  font-size: 16pt;
+  font-size: 18pt;
 }
 
 span.title {
@@ -36,7 +33,7 @@ span.title {
 }
 
 span.name {
-  color: #444444;
+  color: #ffffff;
   vertical-align: middle;
 }
 
@@ -47,37 +44,33 @@ p.nav_links {
 p.item {
   margin-top: 20px;
   margin-bottom: 20px;
-  text-align: justify;
 }
 
 div.content {
-  background: #ffffff;
-  color: #444444;
-  font-family: georgia;
+  background: #1b2631;
+  color: #d5d8dc;
+  font-family: verdana;
   font-size: 12pt;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   padding: 25px;
-  width: 900px;
-  border: double;
-  border-color: #444444;
+  width: 50%;
 }
 
 h1 {
   margin-top: 35pt;
   font-family: verdana;
-  font-weight: lighter;
-  font-size: 13pt;
-  color: #888888;
+  font-size: 14pt;
+  color: #ffffff;
 }
 
 h2 {
   margin-top: 20px;
   font-family: verdana;
-  font-weight: lighter;
-  text-align: right;
+  font-variant: small-caps;
+  text-align: left;
   font-size: 10pt;
   color: #ffb800;
 }
@@ -89,5 +82,5 @@ div.contact {
 hr.section {
   border: none;
   height: 1px;
-  background-color: #bbbbbb;
+  background-color: #5d6d7e;
 }
