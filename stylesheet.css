@@ -37,6 +37,10 @@ span.name {
   vertical-align: middle;
 }
 
+span.update {
+  color: #ffb800;
+}
+
 p.nav_links {
   margin-top: 25px;
 }
