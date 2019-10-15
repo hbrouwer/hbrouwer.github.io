@@ -1,0 +1,106 @@
+body {
+  background: #1b2631;
+}
+
+a {
+  text-decoration: none;
+  color: #d5d8dc;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #d5d8dc;
+}
+
+a:hover {
+  color: #ffb800;
+  text-decoration: underline;
+  background: #34495e;
+}
+
+div.header {
+  font-family: verdana;
+  font-size: 18pt;
+}
+
+span.title {
+  color: #ffb800;
+  vertical-align: middle;
+  border-width: 3px;
+  border-color: #ffb800;
+  border-style: solid;
+  padding: 5px;
+}
+
+span.name {
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+span.update {
+  color: #ffb800;
+}
+
+p.nav_links {
+  margin-top: 25px;
+}
+
+p.item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div.content {
+  background: #1b2631;
+  color: #d5d8dc;
+  font-family: verdana;
+  font-size: 12pt;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  width: 50%;
+}
+
+h1 {
+  margin-top: 35pt;
+  font-family: verdana;
+  font-size: 14pt;
+  color: #ffffff;
+}
+
+h2 {
+  margin-top: 20px;
+  font-family: verdana;
+  font-variant: small-caps;
+  text-align: left;
+  font-size: 10pt;
+  color: #ffb800;
+}
+
+div.contact {
+  margin-top: 20px;
+}
+
+hr.section {
+  border: none;
+  height: 1px;
+  background-color: #5d6d7e;
+}
+
+table.schedule {
+  border-width: 3px;
+  border-color: #5d6d7e;
+  border-style: solid;
+  border-spacing: 15px;
+  width: 100%;
+}
+
+td.schedule {
+}
+
+th.schedule {
+  text-align: left;
+  color: #ffb800;
+}
