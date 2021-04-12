@@ -1,44 +1,52 @@
 body {
-  background: #1b2631;
+  background: #000000;
+  /*
+   * Background image:
+   * URL: https://commons.wikimedia.org/wiki/File:Blackboard.png
+   * Attribution: Ashok Kumar Mandal Bangladesh, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+   */
+  background-image: url("bg.png"); 
+  background-size: cover;
 }
 
 a {
   text-decoration: none;
-  color: #d5d8dc;
+  color: #dddddd;
 }
 
 a:visited {
   text-decoration: none;
-  color: #d5d8dc;
+  color: #dddddd;
 }
 
 a:hover {
-  color: #ffb800;
+  color: #fa5626;
   text-decoration: underline;
-  background: #1d2329;
+  background: #111111;
 }
 
 div.header {
   font-family: verdana;
   font-size: 18pt;
+  margin-top: 10px;
 }
 
 span.title {
-  color: #ffb800;
+  color: #fa5626;
   vertical-align: middle;
-  border-width: 3px;
-  border-color: #ffb800;
+  border-width: 4px;
+  border-color: #fa5626;
   border-style: solid;
   padding: 5px;
 }
 
 span.name {
-  color: #ffffff;
+  color: #eeeeee;
   vertical-align: middle;
 }
 
 span.update {
-  color: #ffb800;
+  color: #fa5626;
 }
 
 p.nav_links {
@@ -51,23 +59,24 @@ p.item {
 }
 
 div.content {
-  background: #2c353e;
-  color: #d5d8dc;
+  background: #2c2c2c;
+  color: #dddddd;
   font-family: verdana;
-  font-size: 12pt;
+  font-size: 12.5pt;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   padding: 25px;
   width: 65%;
+  line-height: 1.5em
 }
 
 h1 {
   margin-top: 35pt;
   font-family: verdana;
-  font-size: 14pt;
-  color: #ffffff;
+  font-size: 13pt;
+  color: #eeeeee;
 }
 
 h2 {
@@ -75,8 +84,8 @@ h2 {
   font-family: verdana;
   font-variant: small-caps;
   text-align: left;
-  font-size: 10pt;
-  color: #ffb800;
+  font-size: 12pt;
+  color: #fa5626;
 }
 
 div.contact {
@@ -85,6 +94,22 @@ div.contact {
 
 hr.section {
   border: none;
-  height: 1px;
-  background-color: #5d6d7e;
+  height: 2px;
+  background-color: #999999;
+}
+
+table.schedule {
+  border-width: 2px;
+  border-color: #999999;
+  border-style: solid;
+  border-spacing: 15px;
+  width: 100%;
+}
+
+td.schedule {
+  vertical-align: top;
+}
+
+th.schedule {
+  text-align: left;
 }
