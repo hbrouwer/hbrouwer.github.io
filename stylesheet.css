@@ -1,54 +1,88 @@
 body {
-  background: #2f4858;
+  background: #000000;
+  margin-left: 10%;
+  margin-right: 10%;
+  /*background-image: url('bg.jpg');*/
+  /*background-size: cover;*/
+}
+
+div.nav_panel {
+  margin-top: 200px;
+  padding: 20px;
+  width: 250px;
+  position: fixed;
+  float: left;
+  font-size: 18pt;
+  font-family: verdana;
+  background: #008b8b;
+  text-align: right;
+  line-height: 1.5em
+}
+
+a.nav_link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:visited.nav_link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover.nav_link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+div.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  float: left;
+  color: #cccccc;
+  font-family: verdana;
+  font-size: 13pt;
+  padding-left: 320px;
+  line-height: 1.5em
 }
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #cccccc;
 }
 
 a:visited {
   text-decoration: none;
-  color: #000000;
+  color: #cccccc;
 }
 
 a:hover {
-  color: #fff6ed;
+  color: #cccccc;
   text-decoration: underline;
   background: #000000;
 }
 
 div.header {
-  background: #feb236;
-  color: #000000;
+  color: #ffffff;
   font-family: verdana;
   font-size: 18pt;
-  margin-top: 10px;
-  padding: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 span.title {
-  background: #000000;
-  color: #fff6ed;
+  background: #ff0000;
+  color: #ffffff;
   vertical-align: middle;
-  margin-left: 10px;
   padding: 20px;
 }
 
 span.name {
-  color: #000000;
+  color: #ffffff;
   vertical-align: middle;
 }
 
 span.update {
-  color: #2f4858;
-}
-
-p.nav_links {
-  background: #f45566;
-  color: #000000;
-  padding: 8px;
-  margin-top: 25px;
+  color: #ff0000;
 }
 
 p.item {
@@ -56,41 +90,25 @@ p.item {
   margin-bottom: 20px;
 }
 
-div.content {
-  color: #000000;
-  font-family: verdana;
-  font-size: 12pt;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 25px;
-  width: 75%;
-  line-height: 1.5em
-}
-
 div.block {
-  background: #fff6ed;
-  padding: 8px;
+  background: #222222;
+  padding: 10px;
 }
-
 
 h1 {
-  margin-top: 15pt;
+  margin-top: 15pt; 
   font-family: verdana;
-  font-size: 12pt;
-  padding:  8px;
-  color: #fff6ed;
-  background: #000000;
+  font-size: 18pt;
+  padding-top: 10px;
+  color: #ff0000;
 }
 
 h2 {
   margin-top: 10px;
   font-family: verdana;
-  font-variant: small-caps;
   text-align: left;
   font-size: 12pt;
-  color: #2f4858;
+  color: #ff0000;
 }
 
 div.contact {
@@ -100,7 +118,7 @@ div.contact {
 hr.section {
   border: none;
   height: 2px;
-  background-color: #2f4858;
+  background-color: #999999;
 }
 
 ol.output {
