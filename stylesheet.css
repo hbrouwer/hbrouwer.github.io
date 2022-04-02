@@ -118,7 +118,7 @@ div.contact {
 hr.section {
   border: none;
   height: 2px;
-  background-color: #999999;
+  background: #999999;
 }
 
 ol.output {
