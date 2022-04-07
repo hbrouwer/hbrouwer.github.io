@@ -2,8 +2,13 @@ body {
   background: #000000;
   margin-left: 10%;
   margin-right: 10%;
-  /*background-image: url('bg.jpg');*/
-  /*background-size: cover;*/
+  /*
+   * Background image: https://commons.wikimedia.org/wiki/File:Green-HSD2_red-MR_in_NTS.jpg
+   * Author: Joel Geerling
+   * License: https://creativecommons.org/licenses/by/3.0/deed.en
+   */
+  background-image: url("bg.jpg");
+  background-size: cover;
 }
 
 div.nav_panel {
