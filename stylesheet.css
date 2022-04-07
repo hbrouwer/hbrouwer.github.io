@@ -14,10 +14,10 @@ body {
 div.nav_panel {
   margin-top: 200px;
   padding: 20px;
-  width: 250px;
+  width: 200px;
   position: fixed;
   float: left;
-  font-size: 18pt;
+  font-size: 16pt;
   font-family: verdana;
   background: #008b8b;
   text-align: right;
@@ -46,7 +46,7 @@ div.content {
   color: #cccccc;
   font-family: verdana;
   font-size: 13pt;
-  padding-left: 320px;
+  padding-left: 270px;
   line-height: 1.5em
 }
 
