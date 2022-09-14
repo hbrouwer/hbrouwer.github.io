@@ -12,7 +12,7 @@ body {
 }
 
 div.image {
-  margin-top: 200px;
+  margin-top: 180px;
   padding: 20px;
   width: 200px;
   position: fixed;
@@ -33,7 +33,7 @@ a:hover.image {
 }
 
 div.nav_panel {
-  margin-top: 320px;
+  margin-top: 300px;
   padding-top: 50px;
   padding-left: 20px;
   padding-right: 20px;
