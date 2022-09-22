@@ -3,11 +3,11 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   /*
-   * Background image: https://commons.wikimedia.org/wiki/File:Green-HSD2_red-MR_in_NTS.jpg
-   * Author: Joel Geerling
-   * License: https://creativecommons.org/licenses/by/3.0/deed.en
+   * Background image: https://commons.wikimedia.org/wiki/File:Insect_neuron.png
+   * Author: NICHD
+   * License: https://creativecommons.org/licenses/by/2.0/deed.en
    */
-  background-image: url("bg.jpg");
+  background-image: url("bg.png");
   background-size: cover;
 }
 
@@ -43,7 +43,7 @@ div.nav_panel {
   float: left;
   font-size: 16pt;
   font-family: verdana;
-  background: #004444;
+  background: #006680;
   text-align: right;
   line-height: 1.5em
 }
