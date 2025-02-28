@@ -145,25 +145,6 @@ div.contact {
   margin-top: 20px;
 }
 
-hr.section {
-  border: none;
-  height: 2px;
-  background: #999999;
-}
-
 ol.output {
   padding-left: 30px;
-}
-
-table.schedule {
-  border-spacing: 15px;
-  width: 100%;
-}
-
-td.schedule {
-  vertical-align: top;
-}
-
-th.schedule {
-  text-align: left;
 }
