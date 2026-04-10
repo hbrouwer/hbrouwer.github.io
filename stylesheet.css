@@ -1,9 +1,7 @@
 body {
-  background: #000000;
-  margin-left: 10%;
-  margin-right: 10%;
+  background: #000000; 
   /*
-   * Background image: https://commons.wikimedia.org/wiki/File:Insect_neuron.png
+   * Background image: https://commons.wikimedia.org/wiki/File:Certain_brain_regions_light_up_during_specific_cognitive_function,_this_is_how_internal_processes_are_linked_to_behaviour_such_as_learning.png
    * Author: NICHD
    * License: https://creativecommons.org/licenses/by/2.0/deed.en
    */
@@ -11,45 +9,42 @@ body {
   background-size: cover;
 }
 
-div.image {
-  margin-top: 180px;
-  padding: 20px;
-  width: 200px;
-  position: fixed;
-  float: left;
-}
-
-img.image {
-  border-color: #ffffff;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 5%;
-  width: 196px;
-  height: 130px; 
-}
-
-a:hover.image {
-  background: none;
+img.avatar {
+  padding-right: 20px;
+  height: 40px;
+  vertical-align: middle;
 }
 
 div.nav_panel {
-  margin-top: 300px;
-  padding-top: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  width: 200px;
   position: fixed;
-  float: left;
-  font-size: 16pt;
+  top: 0px;
+  overflow: hidden;
+  background: #000000;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 10pt;
   font-family: verdana;
-  background: #344c6c;
-  text-align: right;
-  line-height: 1.5em
+}
+
+a.nav_button {
+  text-decoration: none;
+}
+
+a:visited.nav_button {
+  text-decoration: none;
+}
+
+a:hover.nav_button {
+  text-decoration: none;
 }
 
 a.nav_link {
+  vertical-align: middle;
   text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
   color: #ffffff;
 }
 
@@ -59,60 +54,61 @@ a:visited.nav_link {
 }
 
 a:hover.nav_link {
-  text-decoration: none;
-  color: #ffffff;
+  text-decoration: underline;
+  color: #f5b027;
   background: #000000;
 }
 
 div.content {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  float: left;
-  color: #cccccc;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #ffffff;
   font-family: verdana;
-  font-size: 13pt;
-  padding-left: 270px;
-  line-height: 1.5em
+  font-size: 12pt;
+  line-height: 1.5em;
 }
 
 a {
   text-decoration: none;
-  color: #cccccc;
+  color: #ffffff;
 }
 
 a:visited {
   text-decoration: none;
-  color: #cccccc;
+  color: #ffffff;
 }
 
 a:hover {
-  color: #cccccc;
+  color: #f5b027;
   text-decoration: underline;
   background: #000000;
 }
 
-div.header {
-  color: #ffffff;
-  font-family: verdana;
-  font-size: 18pt;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 span.title {
-  background: #ff0000;
-  color: #ffffff;
   vertical-align: middle;
-  padding: 20px;
+  background: #f5b027;
+  color: #ffffff;
+  padding: 5px;
 }
 
 span.name {
-  color: #ffffff;
   vertical-align: middle;
+  color: #ffffff;
+  margin-right: 50px;
+}
+
+span.contact {
+  vertical-align: middle;
+  background: #f5276c;
+  color: #ffffff;
+  margin-left: 50px;
+  padding: 5px;
 }
 
 span.update {
-  color: #ff0000;
+  color: #f5b027;
 }
 
 p.item {
@@ -120,25 +116,26 @@ p.item {
   margin-bottom: 20px;
 }
 
+div.section {
+   padding-top: 60px;
+}
+
 div.block {
-  background: #222222;
+  background: rgba(0,0,0,0.8);
   padding: 10px;
 }
 
 h1 {
-  margin-top: 20px;
   font-family: verdana;
-  font-size: 18pt;
-  padding-top: 10px;
-  color: #ff0000;
+  font-size: 14pt;
+  color: #f5b027;
 }
 
 h2 {
-  margin-top: 10px;
   font-family: verdana;
   text-align: left;
-  font-size: 12pt;
-  color: #ff0000;
+  font-size: 10pt;
+  color: #f5b027;
 }
 
 div.contact {
