@@ -19,7 +19,7 @@ div.nav_panel {
   position: fixed;
   top: 0px;
   left: 5px;
-  overflow: hidden;
+  /* overflow: hidden; */
   background: #000000;
   text-align: center;
   width: 100%;
