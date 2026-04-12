@@ -10,7 +10,7 @@ body {
 }
 
 img.avatar {
-  padding-right: 20px;
+  padding-right: 0.5%;
   height: 40px;
   vertical-align: middle;
 }
@@ -44,8 +44,8 @@ a:hover.nav_button {
 a.nav_link {
   vertical-align: middle;
   text-decoration: none;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.25%;
+  padding-right: 0.25%;
   color: #ffffff;
 }
 
@@ -97,14 +97,14 @@ span.title {
 span.name {
   vertical-align: middle;
   color: #ffffff;
-  margin-right: 50px;
+  margin-right: 1%;
 }
 
 span.contact {
   vertical-align: middle;
   background: #f5276c;
   color: #ffffff;
-  margin-left: 50px;
+  margin-left: 1%;
   padding: 5px;
 }
 
