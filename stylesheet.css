@@ -25,8 +25,8 @@ div.nav_panel {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 10pt;
   font-family: verdana;
+  font-size: 10pt;
 }
 
 a.nav_button {
@@ -62,7 +62,7 @@ a:hover.nav_link {
 
 div.content {
   margin-top: 50px;
-  margin-bottom: 150px;
+  /*margin-bottom: 150px;*/
   margin-left: 15%;
   margin-right: 15%;
   color: #ffffff;
@@ -141,4 +141,13 @@ h2 {
 
 ol.output {
   padding-left: 30px;
+}
+
+div.footer {
+  font-family: verdana;
+  font-size: 10pt;
+  color: #999999;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 150px;
 }
