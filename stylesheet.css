@@ -47,6 +47,7 @@ a.nav_link {
   padding-left: 0.25%;
   padding-right: 0.25%;
   color: #ffffff;
+  font-size: 10pt;
 }
 
 a:visited.nav_link {
@@ -118,7 +119,7 @@ p.item {
 }
 
 div.section {
-   padding-top: 60px;
+  padding-top: 60px; 
 }
 
 div.block {
@@ -127,12 +128,24 @@ div.block {
 }
 
 h1 {
+  scroll-margin-top: 80px;
   font-family: verdana;
   font-size: 14pt;
   color: #f5b027;
 }
 
+h1.with_nav {
+  scroll-margin-top: 80px;
+  vertical-align: middle; 
+  font-family: verdana;
+  font-size: 14pt;
+  color: #f5b027;
+  display: inline-block;
+  padding-right: 10px;
+}
+
 h2 {
+  scroll-margin-top: 80px;
   font-family: verdana;
   text-align: left;
   font-size: 10pt;
